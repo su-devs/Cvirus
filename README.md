@@ -1,6 +1,6 @@
 # Cvirus
 
-VIRUS TOOL by kelvin
+VIRUS TOOL by g1ng3rb1t3 (kelvo)
 
 ,,,,
 installation termux
