@@ -1,3 +1,5 @@
+```
+Installation Termux
 
 $ termux-setup-storage
 $ cd /sdcard
@@ -8,3 +10,4 @@ $ git clone https://github.com/g1ng3rb1t3/Cvirus
 $ cd Cvirus
 $ python3 set.py   ###this goes first
 $ python3 main.py ##this is the main file
+```
