@@ -17,7 +17,7 @@ python main.py -android
 python main.py -update
 -> update the tool
 python main.py -info
--> Check author info
+-> Check script info
 python main.py -h
 -> Shows main help screen
 ```
