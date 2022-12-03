@@ -77,14 +77,8 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 	class Infectar(object):
 		@staticmethod
 		def info():
-			kevo = (""""""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" Author"""+green+""" =>"""+red+""" Kevo"""+white+"""("""+magenta+"""g1ng3rb1t3"""+white+""")
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" Telegram """+green+"""=>"""+red+""" https://t.me/iamk3lv1n
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" Facebook page"""+green+""" =>"""+red+""" https://m.facebook.com/Python-PHP-Cpp-257950141859987/
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" Facebook personal"""+green+""" =>"""+red+""" https://www.facebook.com/profile.php?id=100055220900345
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" Instagram """+green+"""=> """+red+"""https://www.instagram.com/iamk3lv1n
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" GitHub """+green+"""=> """+red+"""https://www.github.com/g1ng3rb1t3
-"""+white+"""["""+yellow+"""×"""+white+"""]"""+blue+""" WhatsApp """+green+"""=>"""+red+""" https://wa.me/254769161106""")
-			print(kevo)
+			pass
+			
 		@staticmethod
 		def update():
 			if not os.path.isfile(versionPath):
@@ -96,7 +90,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 			try:
 				print("{}[+]{} Checking for updates...".format(blue,green))
 				conn = httplib.HTTPSConnection("raw.githubusercontent.com")
-				conn.request("GET", "/g1ng3rb1t3/Cvirus/master/Main/version.txt")
+				conn.request("GET", "/0xbr0/Cvirus/master/Main/version.txt")
 				repoVersion = conn.getresponse().read().strip().decode()
 				with open(versionPath) as vf:
 					currentVersion = vf.read().strip()
@@ -105,7 +99,7 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 					print("{}[{}g.news{}] {}An update has been found!!".format(blue,green, blue,white))
 					sleep(2)
 					print('{}[+] {}Please wait!!! Updating'.format(blue,white))
-					conn.request("GET", "/g1ng3rb1t3/Cvirus/master/main.py")
+					conn.request("GET", "/0xbr0/Cvirus/master/main.py")
 					newCode = conn.getresponse().read().strip().decode()
 					with open("main", "w") as CvirusScript:
 						CvirusScript.write(newCode)
@@ -1505,5 +1499,5 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
 		Main()
 except (EOFError, KeyboardInterrupt):
 	print('\n{}[{}!{}] {}Closed'.format(blue,red,blue,red))
-	print('{}[+] {}by {}g1ng3rb1t3 {}(kevo)'.format(blue,white,green,red))
+	print('{}[+] {}by {}0xbr0 {}(mbithi)'.format(blue,white,green,red))
 	print('{}[+] {}Regards {}^-^'.format(blue,white,green))
