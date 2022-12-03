@@ -5,7 +5,7 @@ $ termux-setup-storage
 $ cd /sdcard
 $ pkg install git
 $ pkg install python
-$ git clone https://github.com/g1ng3rb1t3/Cvirus
+$ git clone https://github.com/0xbr0/Cvirus
 $ cd Cvirus
 $ python3 set.py   ###this goes first
 
